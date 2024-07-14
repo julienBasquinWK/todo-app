@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7003716f-1af8-4197-9cc7-77ff2536fca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/magento2plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/src/ToDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/src/ToDoForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-frontend/src/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-front" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-frontend/src/App.test.js" beforeDir="false" />
+    <list default="true" id="7003716f-1af8-4197-9cc7-77ff2536fca7" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/todo-frontend" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,8 +169,17 @@
       <workItem from="1720895783562" duration="1327000" />
       <workItem from="1720897146521" duration="3304000" />
       <workItem from="1720900501010" duration="4627000" />
-      <workItem from="1720913850024" duration="4753000" />
+      <workItem from="1720913850024" duration="5069000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1720918851328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720918851328</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,5 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
