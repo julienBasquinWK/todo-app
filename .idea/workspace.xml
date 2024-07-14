@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7003716f-1af8-4197-9cc7-77ff2536fca7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todo-front/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-front/.idea/magento2plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-front/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-front/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-front/src/ToDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo-front/src/ToDoForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-front/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-front/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/todo-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/magento2plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/src/ToDo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/src/ToDoForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo-frontend/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-front" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontend/src/App.test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +42,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/todo-front" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,28 +61,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.todo-backend: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/julienbasquin/PhpstormProjects/todo-react/todo-backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Docker.todo-backend: Compose Deployment.executor": "Run",
+    "Jest.App Component.executor": "Run",
+    "Jest.App Component.renders To-Do List header.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/julienbasquin/PhpstormProjects/todo-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/home/julienbasquin/PhpstormProjects/todo-app/todo-frontend/node_modules/react-scripts",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.test.executor": "Run",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/todo-backend" />
@@ -80,7 +97,32 @@
       <recent name="$PROJECT_DIR$/todo-backend" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.todo-backend: Compose Deployment">
+  <component name="RunManager" selected="Jest.App Component.renders To-Do List header">
+    <configuration name="App Component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/todo-frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/todo-frontend" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/todo-frontend/src/App.test.js" />
+      <test-names>
+        <test-name value="App Component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="App Component.renders To-Do List header" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/todo-frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/todo-frontend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/todo-frontend/src/App.test.js" />
+      <test-names>
+        <test-name value="App Component" />
+        <test-name value="renders To-Do List header" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -93,7 +135,7 @@
     <configuration name="todo-backend: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="todo-backend/docker-compose.yml" />
+          <option name="sourceFilePath" value="../todo-app/todo-backend/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -108,8 +150,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/todo-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.App Component.renders To-Do List header" />
+        <item itemvalue="Jest.App Component" />
+        <item itemvalue="npm.test" />
         <item itemvalue="Docker.todo-backend: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -132,7 +187,8 @@
       <workItem from="1720895538573" duration="232000" />
       <workItem from="1720895783562" duration="1327000" />
       <workItem from="1720897146521" duration="3304000" />
-      <workItem from="1720900501010" duration="1897000" />
+      <workItem from="1720900501010" duration="4627000" />
+      <workItem from="1720913850024" duration="4753000" />
     </task>
     <servers />
   </component>
